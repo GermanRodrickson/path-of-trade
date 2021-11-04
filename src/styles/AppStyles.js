@@ -27,23 +27,6 @@ export const BottomBorder = styled.img`
   max-height: 60px;
 `
 
-export const Button = styled.button`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 0 1em;
-  background: transparent;
-  color: #1a0841;
-  border: 1px solid #1a0841;
-
-  ${props =>
-    props.primary &&
-    css`
-      background: #4f9da6;
-      border: 2px solid #4f9da6;
-      color: white;
-    `};
-`;
-
 export const TextWrapper = styled.article`
   text-align: center;
 `;

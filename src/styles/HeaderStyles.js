@@ -2,7 +2,6 @@
 import styled from 'styled-components';
 import menuBg from '../../public/images/menu_bg.png'
 
-
 export const Title = styled.h1`
   text-align: center;
   color: #dcd4a4;

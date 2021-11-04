@@ -12,7 +12,7 @@ export default function Header(props) {
       <Title>Path of Tade</Title>
       <TabWrapper>
         {props.tabs.map((value, index) => {
-          return <Tab selectedTab={props.selectedTab} text={value.text} key={index}/>
+          return <Tab selectTab={props.selectTab} selectedTab={props.selectedTab} tabName={value.tabName} key={index}/>
         })}
       </TabWrapper>
     </Wrapper>
